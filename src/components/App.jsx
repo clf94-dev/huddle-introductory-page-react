@@ -7,7 +7,8 @@ import MockUp from "../images/illustration-mockups.svg";
 import { ReactComponent as Bg } from "../images/bg-desktop.svg";
 import Logo from "../images/logo.svg";
 import TopBar from "./TopBar";
-
+//import Social from "./Social";
+import TextContainer from "./TextContainer";
 export default function App() {
   return (
     <div className="bgImg" style={{ backgroundImage: `url(${Bg})` }}>
@@ -19,13 +20,7 @@ export default function App() {
         </Grid>
         <Grid item md={6}>
           <Grid container className="text-cont">
-            <h1> Build The Community Your Fans Will Love</h1>
-            <h4>
-              {" "}
-              Huddle re-imagines the way we build communities. You have a voice,
-              but so does your audience. Create connections with your users as
-              you engage in genuine discussion.
-            </h4>
+            <TextContainer />
             <RegisterButton />
           </Grid>
         </Grid>
