@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.photo {
+  width: 100%;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+
+  color: white;
+}
+
+.bgImg {
+  z-index: 1;
+}
+.contRow {
+  z-index: 3;
+  padding: 3% 7%;
+}
+
+.text-cont {
+  padding: 5% 10%;
+}
+.register-btn {
+  height: 50px;
+  font-size: 15px !important;
+  border-radius: 25px !important;
+  margin-top: 2%;
+  padding: 1% 20% !important;
+}
+h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h4 {
+  margin-top: 3%;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+.top-bar {
+  padding: 2% 7%;
+}
